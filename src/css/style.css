@@ -1,0 +1,84 @@
+@keyframes movimientodeparrafo {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{margin-left: 0%;
+        width: 100%;
+            }
+        
+        }
+        body{
+            background-image: url(https://blogging-techies.com/wp-content/uploads/2020/06/1593502401_174_38-fondos-de-pantalla-de-full-hd-egipto-para-descargar.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        :root{
+            --main-color:aqua;
+            --text-color:rgb(241, 241, 241);
+            --text-color-hover:blue;
+            --text-color-parrafo:grey;
+            --text-color-parrafo-titulo:red;
+            --text: white;
+        }
+        #main__menu{
+            background:linear-gradient(90deg,rgb(165, 216, 237),rgb(54, 53, 53));
+            color: rgb(244, 238, 238);
+            top: 0%;
+            left: 0%;   
+        }
+        #main__cab{
+            background:linear-gradient(90deg,rgb(21, 21, 21),rgb(54, 53, 53));
+            color: rgb(244, 238, 238);
+            top: 0%;
+            left: 0%;   
+            animation-name: movimientodeparrafo;
+            animation-duration: 3s;
+        }
+     
+        .main__menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-self: center;
+            align-items: flex-start;    
+            }
+            .menu__1 ul {
+          
+                list-style:none;
+                padding: 20px 10px;
+                display: flex;
+                font-size: larger;
+               
+             }
+             .menu__1 ul li {
+                margin-right: 150px; 
+             
+            }
+            .contenedorimg{
+                height: 100%;
+                position:static;
+                display:inline-block;
+                text-align: left;
+                margin: 10px 3px 30px 5px  }
+             .contenedorimg2{
+                    height: 100%;
+                    position:static;
+                    display:inline-block;
+                    text-align: left;
+                    margin: -500px -200px 15px 700px;
+                    }
+                    .imagen__header{
+                        background-image: url(https://blogging-techies.com/wp-content/uploads/2020/06/1593502401_174_38-fondos-de-pantalla-de-full-hd-egipto-para-descargar.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            content: var(--text-color); 
+
+
+                    }
+    
